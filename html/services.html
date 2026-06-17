@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Services | ADJ Technologies Private Limited | Data Analytics, AI & Web Development</title>
+<meta name="description" content="Explore ADJ Technologies' services including Data Analytics, Business Intelligence, Website Development, Bulk SMS, and Government Tech Projects.">
+<meta name="keywords" content="Data Analytics Services, Web Development Services, Bulk SMS Provider, Government Projects IT, Power BI Consulting, Coimbatore, ADJ Technologies">
+<meta name="author" content="ADJ Technologies Private Limited">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://adj-technologies.com/services.html">
+<meta property="og:title" content="Services | ADJ Technologies Private Limited">
+<meta property="og:description" content="Explore our core offerings: Data Analytics, Web Platforms, Bulk SMS, and Public Sector Solutions.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_IN">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": ["Data Analytics", "Web Development", "Bulk SMS", "Government IT Projects"],
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "ADJ Technologies Private Limited",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Coimbatore",
+      "addressRegion": "Tamil Nadu",
+      "addressCountry": "IN"
+    }
+  }
+}
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --adj-black:#08080D; --adj-deep:#0E0E18; --adj-card:#13131F;
+  --adj-orange:#E8431A; --adj-orange-dim:rgba(232,67,26,0.08);
+  --adj-green:#22C55E; --adj-silver:#A8B4CC;
+  --adj-white:#F0F4FF;
+  --adj-border:rgba(168,180,204,0.12); --adj-border-bright:rgba(168,180,204,0.25);
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{background:var(--adj-black);color:var(--adj-white);font-family:'Inter',sans-serif;font-weight:400;line-height:1.6;overflow-x:hidden;}
+
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:0 5vw;height:68px;background:rgba(8,8,13,0.88);backdrop-filter:blur(12px);border-bottom:1px solid var(--adj-border);}
+.nav-logo{display:flex;align-items:center;gap:12px;text-decoration:none;}
+.logo-mark{width:38px;height:38px;flex-shrink:0;}
+.nav-brand{display:flex;flex-direction:column;line-height:1.2;}
+.nav-brand-name{font-family:'Space Grotesk',sans-serif;font-size:14px;font-weight:600;color:var(--adj-white);letter-spacing:0.02em;}
+.nav-brand-sub{font-size:10px;font-weight:400;color:var(--adj-silver);letter-spacing:0.08em;text-transform:uppercase;}
+.nav-links{display:flex;gap:28px;list-style:none;}
+.nav-links a{font-family:'Space Grotesk',sans-serif;font-size:13px;font-weight:500;color:var(--adj-silver);text-decoration:none;letter-spacing:0.04em;transition:color 0.2s;}
+.nav-links a:hover,.nav-links a.active{color:var(--adj-white);}
+.nav-links a.active{color:var(--adj-orange);}
+.nav-cta{color:var(--adj-orange)!important;border:1px solid rgba(232,67,26,0.4);padding:7px 18px;border-radius:6px;transition:background 0.2s,color 0.2s!important;}
+.nav-cta:hover{background:var(--adj-orange)!important;color:white!important;}
+.mobile-menu-btn { display: none; color: var(--adj-white); cursor: pointer; }
+
+/* PAGE HERO */
+.page-hero{padding:140px 5vw 80px;background:var(--adj-deep);border-bottom:1px solid var(--adj-border);position:relative;overflow:hidden;}
+.page-hero::before{content:'';position:absolute;top:-120px;right:-80px;width:500px;height:500px;background:radial-gradient(circle,rgba(232,67,26,0.07) 0%,transparent 70%);pointer-events:none;}
+.page-eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:11px;font-weight:500;letter-spacing:0.15em;text-transform:uppercase;color:var(--adj-orange);background:var(--adj-orange-dim);border:1px solid rgba(232,67,26,0.25);padding:5px 14px;border-radius:100px;margin-bottom:24px;}
+.eyebrow-dot{width:6px;height:6px;border-radius:50%;background:var(--adj-orange);animation:pulse 2s ease-in-out infinite;}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1);}50%{opacity:0.4;transform:scale(0.7);}}
+.page-hero h1{font-family:'Space Grotesk',sans-serif;font-size:clamp(2rem,4.5vw,3.5rem);font-weight:700;line-height:1.1;letter-spacing:-0.03em;color:var(--adj-white);margin-bottom:16px;}
+.page-hero h1 .accent{color:var(--adj-orange);}
+.page-hero p{font-size:1.05rem;color:var(--adj-silver);max-width:520px;line-height:1.75;}
+
+/* SECTIONS */
+section{padding:80px 5vw;}
+.section-deep{background:var(--adj-deep);}
+.section-black{background:var(--adj-black);}
+.section-label{font-size:11px;font-weight:500;letter-spacing:0.15em;text-transform:uppercase;color:var(--adj-orange);margin-bottom:12px;}
+.section-title{font-family:'Space Grotesk',sans-serif;font-size:clamp(1.5rem,3vw,2.4rem);font-weight:700;line-height:1.15;letter-spacing:-0.02em;color:var(--adj-white);margin-bottom:14px;}
+.section-body{font-size:1rem;color:var(--adj-silver);max-width:520px;line-height:1.75;}
+.section-header{max-width:680px;margin-bottom:52px;}
+
+/* BUTTONS */
+.btn-primary{font-family:'Space Grotesk',sans-serif;font-size:14px;font-weight:600;color:white;background:var(--adj-orange);border:none;padding:12px 28px;border-radius:8px;cursor:pointer;text-decoration:none;display:inline-block;transition:opacity 0.2s,transform 0.15s;letter-spacing:0.02em;}
+.btn-primary:hover{opacity:0.9;transform:translateY(-1px);}
+.btn-ghost{font-family:'Space Grotesk',sans-serif;font-size:14px;font-weight:500;color:var(--adj-silver);background:transparent;border:1px solid var(--adj-border-bright);padding:12px 28px;border-radius:8px;cursor:pointer;text-decoration:none;display:inline-block;transition:border-color 0.2s,color 0.2s;}
+.btn-ghost:hover{border-color:var(--adj-silver);color:var(--adj-white);}
+
+/* SERVICE DETAIL CARDS */
+.service-full{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start;padding:64px 0;border-bottom:1px solid var(--adj-border);}
+.service-full:last-child{border-bottom:none;}
+.service-full.reverse{direction:rtl;}
+.service-full.reverse > *{direction:ltr;}
+.service-num{font-family:'Space Grotesk',sans-serif;font-size:4rem;font-weight:700;color:rgba(232,67,26,0.12);line-height:1;margin-bottom:16px;letter-spacing:-0.04em;}
+.service-icon-lg{width:56px;height:56px;background:var(--adj-orange-dim);border:1px solid rgba(232,67,26,0.2);border-radius:14px;display:flex;align-items:center;justify-content:center;margin-bottom:20px;}
+.service-icon-lg svg{width:26px;height:26px;stroke:var(--adj-orange);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;}
+.service-full h2{font-family:'Space Grotesk',sans-serif;font-size:clamp(1.3rem,2.5vw,1.9rem);font-weight:700;color:var(--adj-white);margin-bottom:14px;letter-spacing:-0.02em;line-height:1.2;}
+.service-full p{font-size:15px;color:var(--adj-silver);line-height:1.8;margin-bottom:20px;}
+.feature-list{list-style:none;display:flex;flex-direction:column;gap:10px;margin-bottom:28px;}
+.feature-list li{display:flex;align-items:flex-start;gap:10px;font-size:14px;color:var(--adj-silver);line-height:1.6;}
+.feature-list li::before{content:'';width:5px;height:5px;border-radius:50%;background:var(--adj-orange);margin-top:8px;flex-shrink:0;}
+
+/* SERVICE VISUAL PANEL */
+.svc-panel{background:var(--adj-card);border:1px solid var(--adj-border);border-radius:20px;padding:32px;height:100%;display:flex;flex-direction:column;gap:16px;}
+.svc-panel-title{font-family:'Space Grotesk',sans-serif;font-size:11px;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;color:rgba(168,180,204,0.4);margin-bottom:4px;}
+.svc-metric{background:rgba(168,180,204,0.04);border:1px solid var(--adj-border);border-radius:10px;padding:16px 20px;display:flex;justify-content:space-between;align-items:center;}
+.svc-metric-label{font-size:13px;color:var(--adj-silver);}
+.svc-metric-val{font-family:'Space Grotesk',sans-serif;font-size:1.2rem;font-weight:700;color:var(--adj-white);}
+.svc-metric-val.orange{color:var(--adj-orange);}
+.svc-metric-val.green{color:var(--adj-green);}
+.svc-bar-row{display:flex;flex-direction:column;gap:6px;}
+.svc-bar-label{display:flex;justify-content:space-between;font-size:12px;color:var(--adj-silver);}
+.svc-bar-track{height:6px;background:rgba(168,180,204,0.08);border-radius:100px;overflow:hidden;}
+.svc-bar-fill{height:100%;border-radius:100px;background:var(--adj-orange);transition:width 1s ease;}
+.svc-bar-fill.green{background:var(--adj-green);}
+.svc-bar-fill.silver{background:var(--adj-silver);}
+
+/* PRICING TEASER */
+.pricing-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+.pricing-card{background:var(--adj-card);border:1px solid var(--adj-border);border-radius:16px;padding:32px 28px;transition:border-color 0.2s,transform 0.2s;}
+.pricing-card:hover{border-color:rgba(232,67,26,0.35);transform:translateY(-4px);}
+.pricing-card.featured{border-color:rgba(232,67,26,0.5);position:relative;}
+.pricing-card.featured::before{content:'Most Popular';position:absolute;top:-12px;left:50%;transform:translateX(-50%);font-size:10px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--adj-orange);background:var(--adj-black);border:1px solid rgba(232,67,26,0.3);padding:3px 14px;border-radius:100px;white-space:nowrap;}
+.pricing-tier{font-size:11px;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;color:var(--adj-silver);margin-bottom:10px;}
+.pricing-card h3{font-family:'Space Grotesk',sans-serif;font-size:1.15rem;font-weight:700;color:var(--adj-white);margin-bottom:12px;}
+.pricing-card p{font-size:13px;color:var(--adj-silver);line-height:1.7;margin-bottom:20px;}
+.pricing-items{list-style:none;display:flex;flex-direction:column;gap:8px;}
+.pricing-items li{font-size:12px;color:var(--adj-silver);display:flex;align-items:center;gap:8px;}
+.pricing-items li::before{content:'✓';color:var(--adj-green);font-size:11px;font-weight:700;}
+
+/* TOOLS SECTION */
+.tools-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:12px;}
+.tool-tag{background:var(--adj-card);border:1px solid var(--adj-border);border-radius:10px;padding:16px 14px;text-align:center;transition:border-color 0.2s;}
+.tool-tag:hover{border-color:var(--adj-border-bright);}
+.tool-tag .tool-icon{font-size:22px;margin-bottom:8px;display:block;}
+.tool-tag .tool-name{font-family:'Space Grotesk',sans-serif;font-size:12px;font-weight:500;color:var(--adj-silver);}
+
+/* CTA STRIP */
+.cta-strip{background:var(--adj-deep);border-top:1px solid var(--adj-border);border-bottom:1px solid var(--adj-border);padding:72px 5vw;text-align:center;position:relative;overflow:hidden;}
+.cta-strip::before{content:'';position:absolute;top:-100px;left:50%;transform:translateX(-50%);width:600px;height:600px;background:radial-gradient(circle,rgba(232,67,26,0.06) 0%,transparent 70%);pointer-events:none;}
+.cta-strip h2{font-family:'Space Grotesk',sans-serif;font-size:clamp(1.6rem,3.5vw,2.6rem);font-weight:700;color:var(--adj-white);margin-bottom:12px;letter-spacing:-0.03em;position:relative;}
+.cta-strip p{font-size:1rem;color:var(--adj-silver);max-width:400px;margin:0 auto 32px;position:relative;}
+.cta-btns{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;position:relative;}
+
+/* FOOTER */
+footer{background:var(--adj-black);border-top:1px solid var(--adj-border);padding:28px 5vw;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;}
+footer p{font-size:12px;color:rgba(168,180,204,0.45);}
+.footer-brand{font-family:'Space Grotesk',sans-serif;font-size:13px;font-weight:600;color:var(--adj-silver);}
+.footer-brand span{color:var(--adj-orange);}
+
+/* REVEAL */
+.reveal{opacity:0;transform:translateY(24px);transition:opacity 0.6s ease,transform 0.6s ease;}
+.reveal.visible{opacity:1;transform:none;}
+
+/* MOBILE */
+@media(max-width:768px){
+  .service-full,.service-full.reverse{grid-template-columns:1fr;direction:ltr;}
+  .pricing-grid{grid-template-columns:1fr;}
+  .tools-grid{grid-template-columns:repeat(3,1fr);}
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 68px;
+    left: 0;
+    right: 0;
+    background: rgba(8,8,13,0.98);
+    backdrop-filter: blur(12px);
+    flex-direction: column;
+    padding: 24px 5vw;
+    border-bottom: 1px solid var(--adj-border);
+    gap: 20px;
+  }
+  .nav-links.active { display: flex; }
+  .mobile-menu-btn { display: block; }
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="index.html">
+    <img src="AJD_Tech_Logo.png" alt="AJD Technologies Logo" class="logo-mark" style="object-fit: contain;">
+    <div class="nav-brand">
+      <span class="nav-brand-name">ADJ Technologies</span>
+      <span class="nav-brand-sub">Private Limited</span>
+    </div>
+  </a>
+  <div class="mobile-menu-btn" id="mobileMenuBtn">
+    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+  </div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="services.html" class="active">Services</a></li>
+    <li><a href="career.html">Career</a></li>
+    <li><a href="contact.html" class="nav-cta">Contact Us</a></li>
+  </ul>
+</nav>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <div class="page-eyebrow"><span class="eyebrow-dot"></span>What We Offer</div>
+  <h1>Services Built for<br><span class="accent">Data-Driven</span> Outcomes.</h1>
+  <p>From bulk communication infrastructure to government analytics pipelines — our four service pillars cover every layer of your digital and data needs.</p>
+</div>
+
+<!-- SERVICE 1: DATA ANALYTICS -->
+<section class="section-black">
+  <div class="service-full reveal">
+    <div>
+      <div class="service-num">01</div>
+      <div class="service-icon-lg">
+        <svg viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 16l4-4 4 4 4-4"/></svg>
+      </div>
+      <h2>Data Analytics &amp;<br>Business Intelligence</h2>
+      <p>We transform raw, multi-source data into structured intelligence — dashboards, reports, and models your team can act on. Built for enterprises and government departments alike.</p>
+      <ul class="feature-list">
+        <li>End-to-end data pipeline: collection, cleansing, modelling, visualization</li>
+        <li>Power BI dashboards with live data connections</li>
+        <li>Custom Python-based analytics scripts</li>
+        <li>Government-ready reporting (PDF, Excel, BI)</li>
+        <li>School performance, waste management, operational metrics</li>
+        <li>KPI monitoring and period-over-period variance analysis</li>
+      </ul>
+      <a href="contact.html" class="btn-primary">Request a Demo</a>
+    </div>
+    <div class="svc-panel">
+      <div class="svc-panel-title">Analytics Impact</div>
+      <div class="svc-metric">
+        <span class="svc-metric-label">Active Dashboards</span>
+        <span class="svc-metric-val orange">4+</span>
+      </div>
+      <div class="svc-metric">
+        <span class="svc-metric-label">Govt Engagements</span>
+        <span class="svc-metric-val green">Live</span>
+      </div>
+      <div style="margin-top:8px; display:flex; flex-direction:column; gap:14px;">
+        <div class="svc-bar-row">
+          <div class="svc-bar-label"><span>Data Accuracy</span><span>98%</span></div>
+          <div class="svc-bar-track"><div class="svc-bar-fill" style="width:98%"></div></div>
+        </div>
+        <div class="svc-bar-row">
+          <div class="svc-bar-label"><span>Report Delivery</span><span>100%</span></div>
+          <div class="svc-bar-track"><div class="svc-bar-fill green" style="width:100%"></div></div>
+        </div>
+        <div class="svc-bar-row">
+          <div class="svc-bar-label"><span>Client Satisfaction</span><span>95%</span></div>
+          <div class="svc-bar-track"><div class="svc-bar-fill silver" style="width:95%"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICE 2: WEB DEVELOPMENT -->
+<section class="section-deep">
+  <div class="service-full reverse reveal">
+    <div>
+      <div class="service-num">02</div>
+      <div class="service-icon-lg">
+        <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+      </div>
+      <h2>Website &amp; Platform<br>Development</h2>
+      <p>We design and build secure, scalable web platforms — from public-sector portals to client-facing corporate sites. Every project is responsive, performance-optimized, and built to last.</p>
+      <ul class="feature-list">
+        <li>Custom Flask / Python web applications</li>
+        <li>Responsive front-end with modern frameworks</li>
+        <li>MySQL database integration and secure APIs</li>
+        <li>Admin dashboards, portals, and CMS solutions</li>
+        <li>Contact management and email automation (Flask-Mail)</li>
+        <li>Government-grade security and compliance practices</li>
+      </ul>
+      <a href="contact.html" class="btn-primary">Start a Project</a>
+    </div>
+    <div class="svc-panel">
+      <div class="svc-panel-title">Tech Stack</div>
+      <div class="svc-metric"><span class="svc-metric-label">Frontend</span><span class="svc-metric-val" style="font-size:0.9rem;">HTML · CSS · JS · React</span></div>
+      <div class="svc-metric"><span class="svc-metric-label">Backend</span><span class="svc-metric-val" style="font-size:0.9rem;">Python · Flask</span></div>
+      <div class="svc-metric"><span class="svc-metric-label">Database</span><span class="svc-metric-val" style="font-size:0.9rem;">MySQL · SQLite</span></div>
+      <div class="svc-metric"><span class="svc-metric-label">Deployment</span><span class="svc-metric-val" style="font-size:0.9rem;">VPS · Cloud</span></div>
+      <div class="svc-metric"><span class="svc-metric-label">Avg. Delivery</span><span class="svc-metric-val orange">2–4 Weeks</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICE 3: BULK SMS & DIGITAL MARKETING -->
+<section class="section-black">
+  <div class="service-full reveal">
+    <div>
+      <div class="service-num">03</div>
+      <div class="service-icon-lg">
+        <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+      </div>
+      <h2>Bulk SMS &amp;<br>Digital Marketing</h2>
+      <p>Reach thousands of people instantly. Our high-volume SMS infrastructure handles alerts, campaigns, and notifications — paired with full-spectrum digital marketing to grow your brand online.</p>
+      <ul class="feature-list">
+        <li>High-volume bulk SMS dispatch with delivery reports</li>
+        <li>Transactional and promotional SMS campaigns</li>
+        <li>SEO — on-page, technical, and content optimization</li>
+        <li>Social media management and performance marketing</li>
+        <li>Email marketing automation and drip sequences</li>
+        <li>Campaign analytics and ROI reporting</li>
+      </ul>
+      <a href="contact.html" class="btn-primary">Launch a Campaign</a>
+    </div>
+    <div class="svc-panel">
+      <div class="svc-panel-title">Campaign Capabilities</div>
+      <div class="svc-metric"><span class="svc-metric-label">SMS Volume / Batch</span><span class="svc-metric-val orange">10,000+</span></div>
+      <div class="svc-metric"><span class="svc-metric-label">Delivery Rate</span><span class="svc-metric-val green">99%+</span></div>
+      <div style="margin-top:8px;display:flex;flex-direction:column;gap:14px;">
+        <div class="svc-bar-row">
+          <div class="svc-bar-label"><span>SEO Coverage</span><span>Full-stack</span></div>
+          <div class="svc-bar-track"><div class="svc-bar-fill" style="width:90%"></div></div>
+        </div>
+        <div class="svc-bar-row">
+          <div class="svc-bar-label"><span>Social Reach</span><span>Multi-platform</span></div>
+          <div class="svc-bar-track"><div class="svc-bar-fill green" style="width:85%"></div></div>
+        </div>
+        <div class="svc-bar-row">
+          <div class="svc-bar-label"><span>Email Automation</span><span>Included</span></div>
+          <div class="svc-bar-track"><div class="svc-bar-fill silver" style="width:80%"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICE 4: GOVERNMENT PROJECTS -->
+<section class="section-deep">
+  <div class="service-full reverse reveal">
+    <div>
+      <div class="service-num">04</div>
+      <div class="service-icon-lg">
+        <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      </div>
+      <h2>Government &amp; Public<br>Sector Projects</h2>
+      <p>We have hands-on experience delivering structured analytics for public institutions. Our pipeline follows strict data governance, audit-ready documentation, and government reporting formats.</p>
+      <ul class="feature-list">
+        <li>School data analysis — performance, attendance, outcomes</li>
+        <li>Solid waste management analytics and route optimization</li>
+        <li>Power BI dashboards for commissioners and officials</li>
+        <li>Structured data collection, validation, and cleansing</li>
+        <li>Multi-department integration and reporting</li>
+        <li>Tender-ready documentation and deliverable packages</li>
+      </ul>
+      <a href="contact.html" class="btn-primary">Discuss Your Project</a>
+    </div>
+    <div class="svc-panel">
+      <div class="svc-panel-title">Active Government Work</div>
+      <div class="svc-metric"><span class="svc-metric-label">Client</span><span class="svc-metric-val" style="font-size:0.85rem;">Coimbatore Corporation</span></div>
+      <div class="svc-metric"><span class="svc-metric-label">Initiative 1</span><span class="svc-metric-val" style="font-size:0.82rem;color:var(--adj-green);">● School Analytics</span></div>
+      <div class="svc-metric"><span class="svc-metric-label">Initiative 2</span><span class="svc-metric-val" style="font-size:0.82rem;color:var(--adj-green);">● Waste Management</span></div>
+      <div class="svc-metric"><span class="svc-metric-label">Pipeline</span><span class="svc-metric-val" style="font-size:0.85rem;">End-to-End</span></div>
+      <div class="svc-metric"><span class="svc-metric-label">Status</span><span class="svc-metric-val orange">Active Engagement</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- TOOLS -->
+<section class="section-black">
+  <div class="section-header reveal">
+    <div class="section-label">Technology</div>
+    <h2 class="section-title">Tools we work with.</h2>
+    <p class="section-body">Our team uses industry-standard tools across analytics, development, and communication.</p>
+  </div>
+  <div class="tools-grid reveal">
+    <div class="tool-tag"><span class="tool-icon">📊</span><span class="tool-name">Power BI</span></div>
+    <div class="tool-tag"><span class="tool-icon">🐍</span><span class="tool-name">Python</span></div>
+    <div class="tool-tag"><span class="tool-icon">🗄️</span><span class="tool-name">MySQL</span></div>
+    <div class="tool-tag"><span class="tool-icon">⚗️</span><span class="tool-name">Flask</span></div>
+    <div class="tool-tag"><span class="tool-icon">📈</span><span class="tool-name">Excel Analytics</span></div>
+    <div class="tool-tag"><span class="tool-icon">📱</span><span class="tool-name">Bulk SMS API</span></div>
+    <div class="tool-tag"><span class="tool-icon">🌐</span><span class="tool-name">HTML/CSS/JS</span></div>
+    <div class="tool-tag"><span class="tool-icon">⚛️</span><span class="tool-name">React</span></div>
+    <div class="tool-tag"><span class="tool-icon">📧</span><span class="tool-name">Email Automation</span></div>
+    <div class="tool-tag"><span class="tool-icon">🔍</span><span class="tool-name">SEO Tools</span></div>
+    <div class="tool-tag"><span class="tool-icon">☁️</span><span class="tool-name">Cloud Hosting</span></div>
+    <div class="tool-tag"><span class="tool-icon">📋</span><span class="tool-name">Pandas / NumPy</span></div>
+  </div>
+</section>
+
+<!-- CTA -->
+<div class="cta-strip">
+  <h2>Not sure which service fits?</h2>
+  <p>Tell us your challenge — we'll map the right solution to your goals.</p>
+  <div class="cta-btns">
+    <a href="contact.html" class="btn-primary">Talk to Our Team</a>
+    <a href="index.html" class="btn-ghost">Back to Home</a>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-brand">ADJ <span>Technologies</span> Pvt. Ltd.</div>
+  <p style="color:rgba(168,180,204,0.3);">Coimbatore, Tamil Nadu</p>
+</footer>
+
+<script>
+const reveals = document.querySelectorAll('.reveal');
+const obs = new IntersectionObserver(entries => entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); }), {threshold:0.08,rootMargin:'0px 0px -30px 0px'});
+reveals.forEach(el => obs.observe(el));
+
+/* MOBILE MENU */
+const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+const navLinks = document.getElementById('navLinks');
+if (mobileMenuBtn) {
+  mobileMenuBtn.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+}
+</script>
+</body>
+</html>

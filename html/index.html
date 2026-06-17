@@ -1,0 +1,1406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ADJ Technologies Private Limited | Data Analytics, AI & Web Development</title>
+<meta name="description" content="ADJ Technologies delivers structured, insight-driven data analytics, AI solutions, web development, and bulk SMS services for enterprises and government bodies in Coimbatore, India.">
+<meta name="keywords" content="Data Analytics, Web Development, Bulk SMS, Government IT Projects, Power BI, Artificial Intelligence, Coimbatore, Tamil Nadu, ADJ Technologies">
+<meta name="author" content="ADJ Technologies Private Limited">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://adj-technologies.com/index.html">
+<meta property="og:title" content="ADJ Technologies Private Limited | Data Analytics & Web Development">
+<meta property="og:description" content="Delivering structured, insight-driven analytics, digital platforms, and government-ready solutions in Coimbatore, India.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_IN">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "ADJ Technologies Private Limited",
+  "alternateName": "Zavri Digital Solutions",
+  "description": "ADJ Technologies delivers structured, insight-driven data analytics, digital platforms, and government-ready tech solutions.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Coimbatore",
+    "addressRegion": "Tamil Nadu",
+    "addressCountry": "IN"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+91-9597793147",
+    "contactType": "customer service",
+    "email": "deva@adjtechnologies.com",
+    "availableLanguage": "en"
+  }
+}
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --adj-black: #08080D;
+    --adj-deep: #0E0E18;
+    --adj-card: #13131F;
+    --adj-orange: #E8431A;
+    --adj-orange-glow: rgba(232,67,26,0.15);
+    --adj-orange-dim: rgba(232,67,26,0.08);
+    --adj-green: #22C55E;
+    --adj-silver: #A8B4CC;
+    --adj-silver-dim: rgba(168,180,204,0.12);
+    --adj-white: #F0F4FF;
+    --adj-border: rgba(168,180,204,0.12);
+    --adj-border-bright: rgba(168,180,204,0.25);
+    font-size: 16px;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--adj-black);
+    color: var(--adj-white);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vw;
+    height: 68px;
+    background: rgba(8,8,13,0.85);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--adj-border);
+  }
+
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+  }
+
+  .logo-mark {
+    width: 38px;
+    height: 38px;
+    flex-shrink: 0;
+  }
+
+  .nav-brand {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+  }
+
+  .nav-brand-name {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--adj-white);
+    letter-spacing: 0.02em;
+  }
+
+  .nav-brand-sub {
+    font-size: 10px;
+    font-weight: 400;
+    color: var(--adj-silver);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+  }
+
+  .nav-links a {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--adj-silver);
+    text-decoration: none;
+    letter-spacing: 0.04em;
+    transition: color 0.2s;
+  }
+
+  .nav-links a:hover { color: var(--adj-white); }
+
+  .nav-cta {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--adj-orange) !important;
+    border: 1px solid rgba(232,67,26,0.4);
+    padding: 7px 18px;
+    border-radius: 6px;
+    transition: background 0.2s, color 0.2s !important;
+  }
+
+  .nav-cta:hover { background: var(--adj-orange)!important; color: white!important; }
+  .mobile-menu-btn { display: none; color: var(--adj-white); cursor: pointer; }
+  }
+
+  /* ── HERO ── */
+  #hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding: 100px 5vw 80px;
+  }
+
+  .hero-canvas {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 620px;
+  }
+
+  .hero-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--adj-orange);
+    background: var(--adj-orange-dim);
+    border: 1px solid rgba(232,67,26,0.25);
+    padding: 5px 14px;
+    border-radius: 100px;
+    margin-bottom: 28px;
+  }
+
+  .eyebrow-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--adj-orange);
+    animation: pulse 2s ease-in-out infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.4; transform: scale(0.7); }
+  }
+
+  .hero-headline {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: clamp(2.4rem, 5vw, 4rem);
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: var(--adj-white);
+    margin-bottom: 10px;
+  }
+
+  .hero-headline .accent { color: var(--adj-orange); }
+
+  .hero-sub {
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    font-weight: 300;
+    color: rgba(168,180,204,0.85);
+    margin-bottom: 40px;
+    max-width: 480px;
+    line-height: 1.7;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .btn-primary {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background: var(--adj-orange);
+    border: none;
+    padding: 12px 28px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: opacity 0.2s, transform 0.15s;
+    letter-spacing: 0.02em;
+  }
+
+  .btn-primary:hover { opacity: 0.9; transform: translateY(-1px); }
+
+  .btn-ghost {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--adj-silver);
+    background: transparent;
+    border: 1px solid var(--adj-border-bright);
+    padding: 12px 28px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: border-color 0.2s, color 0.2s;
+  }
+
+  .btn-ghost:hover { border-color: var(--adj-silver); color: var(--adj-white); }
+
+  /* ── DIVIDER ── */
+  .angled-divider {
+    width: 100%;
+    height: 80px;
+    background: var(--adj-deep);
+    clip-path: polygon(0 100%, 100% 0, 100% 100%);
+    margin-top: -40px;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* ── SECTIONS ── */
+  section {
+    padding: 90px 5vw;
+  }
+
+  .section-deep { background: var(--adj-deep); }
+  .section-black { background: var(--adj-black); }
+
+  .section-label {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--adj-orange);
+    margin-bottom: 12px;
+  }
+
+  .section-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: clamp(1.6rem, 3vw, 2.6rem);
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    color: var(--adj-white);
+    margin-bottom: 16px;
+  }
+
+  .section-body {
+    font-size: 1rem;
+    color: var(--adj-silver);
+    max-width: 520px;
+    line-height: 1.75;
+  }
+
+  .section-header {
+    max-width: 680px;
+    margin-bottom: 56px;
+  }
+
+  /* ── WHO WE ARE ── */
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+  }
+
+  .about-visual {
+    position: relative;
+  }
+
+  .about-logo-container {
+    width: 100%;
+    aspect-ratio: 1;
+    max-width: 340px;
+    margin: 0 auto;
+    background: var(--adj-card);
+    border: 1px solid var(--adj-border);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .about-logo-container::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 50% 60%, rgba(232,67,26,0.12) 0%, transparent 70%);
+  }
+
+  .adj-logo-svg {
+    width: 60%;
+    position: relative;
+    z-index: 2;
+  }
+
+  .about-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 32px;
+  }
+
+  .stat-pill {
+    background: var(--adj-card);
+    border: 1px solid var(--adj-border);
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .stat-pill .num {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--adj-orange);
+    display: block;
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+
+  .stat-pill .lbl {
+    font-size: 12px;
+    color: var(--adj-silver);
+    letter-spacing: 0.04em;
+  }
+
+  /* ── SERVICES ── */
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+  }
+
+  .service-card {
+    background: var(--adj-card);
+    border: 1px solid var(--adj-border);
+    border-radius: 16px;
+    padding: 32px 28px;
+    position: relative;
+    overflow: hidden;
+    transition: border-color 0.25s, transform 0.2s;
+    cursor: default;
+  }
+
+  .service-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: var(--adj-orange);
+    opacity: 0;
+    transition: opacity 0.25s;
+  }
+
+  .service-card:hover {
+    border-color: rgba(232,67,26,0.35);
+    transform: translateY(-4px);
+  }
+
+  .service-card:hover::before { opacity: 1; }
+
+  .service-icon {
+    width: 48px;
+    height: 48px;
+    background: var(--adj-orange-dim);
+    border: 1px solid rgba(232,67,26,0.2);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .service-icon svg { width: 22px; height: 22px; stroke: var(--adj-orange); fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+
+  .service-card h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--adj-white);
+    margin-bottom: 10px;
+    letter-spacing: -0.01em;
+  }
+
+  .service-card p {
+    font-size: 14px;
+    color: var(--adj-silver);
+    line-height: 1.7;
+  }
+
+  /* ── GOVERNMENT SECTION ── */
+  .gov-highlight {
+    background: var(--adj-card);
+    border: 1px solid var(--adj-border);
+    border-left: 4px solid var(--adj-orange);
+    border-radius: 16px;
+    padding: 40px 44px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: center;
+  }
+
+  .gov-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--adj-green);
+    background: rgba(34,197,94,0.08);
+    border: 1px solid rgba(34,197,94,0.2);
+    padding: 4px 12px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+  }
+
+  .gov-badge-dot {
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    background: var(--adj-green);
+  }
+
+  .gov-highlight h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--adj-white);
+    line-height: 1.25;
+    margin-bottom: 14px;
+    letter-spacing: -0.02em;
+  }
+
+  .gov-highlight p {
+    font-size: 14px;
+    color: var(--adj-silver);
+    line-height: 1.75;
+  }
+
+  .gov-highlight p strong {
+    color: var(--adj-white);
+    font-weight: 500;
+  }
+
+  .gov-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 24px;
+  }
+
+  .gov-chip {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--adj-silver);
+    background: rgba(168,180,204,0.06);
+    border: 1px solid var(--adj-border-bright);
+    padding: 6px 14px;
+    border-radius: 100px;
+  }
+
+  .gov-visual {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .gov-metric {
+    background: rgba(168,180,204,0.04);
+    border: 1px solid var(--adj-border);
+    border-radius: 12px;
+    padding: 18px 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .gov-metric-label {
+    font-size: 13px;
+    color: var(--adj-silver);
+  }
+
+  .gov-metric-value {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--adj-white);
+  }
+
+  .gov-metric-value.orange { color: var(--adj-orange); }
+  .gov-metric-value.green { color: var(--adj-green); }
+
+  /* ── WHY US ── */
+  .why-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .why-item {
+    padding: 28px;
+    border: 1px solid var(--adj-border);
+    border-radius: 14px;
+    background: var(--adj-card);
+    transition: border-color 0.2s;
+  }
+
+  .why-item:hover { border-color: var(--adj-border-bright); }
+
+  .why-num {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgba(232,67,26,0.2);
+    line-height: 1;
+    margin-bottom: 14px;
+    letter-spacing: -0.04em;
+  }
+
+  .why-item h4 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--adj-white);
+    margin-bottom: 8px;
+    letter-spacing: -0.01em;
+  }
+
+  .why-item p {
+    font-size: 13px;
+    color: var(--adj-silver);
+    line-height: 1.7;
+  }
+
+  /* ── TECH STACK ── */
+  .tech-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .tech-tag {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--adj-silver);
+    background: var(--adj-card);
+    border: 1px solid var(--adj-border);
+    padding: 8px 16px;
+    border-radius: 8px;
+    letter-spacing: 0.04em;
+  }
+
+  /* ── PROCESS ── */
+  .process-track {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0;
+    position: relative;
+    margin-top: 16px;
+  }
+
+  .process-track::before {
+    content: '';
+    position: absolute;
+    top: 28px;
+    left: 10%;
+    right: 10%;
+    height: 1px;
+    background: var(--adj-border-bright);
+    z-index: 0;
+  }
+
+  .process-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 10px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .process-dot {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: var(--adj-card);
+    border: 2px solid var(--adj-border-bright);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--adj-silver);
+    transition: border-color 0.2s, color 0.2s;
+  }
+
+  .process-step.active .process-dot {
+    border-color: var(--adj-orange);
+    color: var(--adj-orange);
+    background: var(--adj-orange-dim);
+  }
+
+  .process-step h5 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--adj-white);
+    margin-bottom: 6px;
+    letter-spacing: -0.01em;
+  }
+
+  .process-step p {
+    font-size: 11px;
+    color: var(--adj-silver);
+    line-height: 1.5;
+  }
+
+  /* ── CONTACT / CTA ── */
+  .cta-block {
+    text-align: center;
+    padding: 80px 5vw;
+    background: var(--adj-deep);
+    border-top: 1px solid var(--adj-border);
+    border-bottom: 1px solid var(--adj-border);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cta-block::before {
+    content: '';
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(232,67,26,0.07) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .cta-block h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    font-weight: 700;
+    color: var(--adj-white);
+    margin-bottom: 14px;
+    letter-spacing: -0.03em;
+    position: relative;
+  }
+
+  .cta-block p {
+    font-size: 1rem;
+    color: var(--adj-silver);
+    max-width: 440px;
+    margin: 0 auto 36px;
+    position: relative;
+  }
+
+  .contact-chips {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 32px;
+    position: relative;
+  }
+
+  .contact-chip {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: var(--adj-silver);
+    background: var(--adj-card);
+    border: 1px solid var(--adj-border);
+    padding: 10px 18px;
+    border-radius: 100px;
+  }
+
+  .contact-chip svg { width: 16px; height: 16px; stroke: var(--adj-orange); fill: none; stroke-width: 2; stroke-linecap: round; }
+
+  /* ── FOOTER ── */
+  footer {
+    background: var(--adj-black);
+    border-top: 1px solid var(--adj-border);
+    padding: 32px 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  footer p {
+    font-size: 12px;
+    color: rgba(168,180,204,0.5);
+  }
+
+  footer .footer-brand {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--adj-silver);
+  }
+
+  footer .footer-brand span { color: var(--adj-orange); }
+
+  /* ── PORTAL SECTION ── */
+  .portal-card {
+    background: var(--adj-card);
+    border: 1px solid var(--adj-border);
+    border-radius: 16px;
+    padding: 36px 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: center;
+  }
+
+  .portal-features {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-top: 24px;
+  }
+
+  .portal-feature {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 14px;
+    color: var(--adj-silver);
+  }
+
+  .portal-feature-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--adj-green);
+    margin-top: 7px;
+    flex-shrink: 0;
+  }
+
+  .portal-visual {
+    background: rgba(168,180,204,0.03);
+    border: 1px solid var(--adj-border);
+    border-radius: 12px;
+    padding: 24px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 13px;
+    color: var(--adj-silver);
+  }
+
+  .portal-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--adj-border);
+  }
+
+  .portal-row:last-child { border-bottom: none; }
+
+  .portal-row-label { color: rgba(168,180,204,0.6); }
+
+  .portal-row-val { color: var(--adj-white); font-weight: 500; }
+
+  .badge {
+    font-size: 11px;
+    font-weight: 500;
+    padding: 3px 10px;
+    border-radius: 100px;
+  }
+
+  .badge-green { background: rgba(34,197,94,0.1); color: var(--adj-green); border: 1px solid rgba(34,197,94,0.2); }
+  .badge-orange { background: var(--adj-orange-dim); color: var(--adj-orange); border: 1px solid rgba(232,67,26,0.2); }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 768px) {
+    .about-grid, .gov-highlight, .portal-card { grid-template-columns: 1fr; }
+    .why-grid { grid-template-columns: 1fr 1fr; }
+    .process-track { grid-template-columns: 1fr 1fr; gap: 20px; }
+    .process-track::before { display: none; }
+    .nav-links { 
+      display: none; 
+      position: absolute;
+      top: 68px;
+      left: 0;
+      right: 0;
+      background: rgba(8,8,13,0.98);
+      backdrop-filter: blur(12px);
+      flex-direction: column;
+      padding: 24px 5vw;
+      border-bottom: 1px solid var(--adj-border);
+      gap: 20px;
+    }
+    .nav-links.active { display: flex; }
+    .mobile-menu-btn { display: block; }
+    .hero-headline { font-size: 2.2rem; }
+  }
+
+  @media (max-width: 480px) {
+    .why-grid { grid-template-columns: 1fr; }
+    section { padding: 60px 4vw; }
+  }
+
+  /* ── SCROLL REVEAL ── */
+  .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease, transform 0.6s ease; }
+  .reveal.visible { opacity: 1; transform: none; }
+/* ── CUSTOM CURSOR ── */
+  .cursor-dot, .cursor-outline {
+    position: fixed;
+    top: 0; left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 9999;
+    pointer-events: none;
+  }
+  .cursor-dot {
+    width: 8px; height: 8px;
+    background-color: var(--adj-orange);
+  }
+  .cursor-outline {
+    width: 40px; height: 40px;
+    border: 2px solid rgba(232, 67, 26, 0.5);
+    transition: width 0.2s, height 0.2s, border-color 0.2s;
+  }
+  @media (hover: none) and (pointer: coarse) {
+    .cursor-dot, .cursor-outline { display: none !important; }
+  }
+  
+  /* ── INTERACTIVE CARDS ── */
+  .service-card, .why-item, .about-logo-container {
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease;
+  }
+  .service-card:hover, .why-item:hover, .about-logo-container:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 10px 30px rgba(232, 67, 26, 0.15);
+    border-color: rgba(232, 67, 26, 0.4);
+  }
+
+  /* ── SCRAMBLE TEXT ANIMATION ── */
+  .scramble-text {
+    display: inline-block;
+    position: relative;
+  }
+</style>
+</head>
+<body>
+
+<!-- CUSTOM CURSOR -->
+<div class="cursor-dot" id="cursor-dot"></div>
+<div class="cursor-outline" id="cursor-outline"></div>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="#hero">
+    <img src="AJD_Tech_Logo.png" alt="AJD Technologies Logo" class="logo-mark" style="object-fit: contain;">
+    <div class="nav-brand">
+      <span class="nav-brand-name">ADJ Technologies</span>
+      <span class="nav-brand-sub">Private Limited</span>
+    </div>
+  </a>
+  <div class="mobile-menu-btn" id="mobileMenuBtn">
+    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+  </div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html" style="color:var(--adj-white);">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="career.html">Career</a></li>
+    <li><a href="contact.html" class="nav-cta">Contact Us</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <canvas class="hero-canvas" id="heroCanvas"></canvas>
+  <div class="hero-content">
+    <div class="hero-eyebrow">
+      <span class="eyebrow-dot"></span>
+      Data · Analytics · Intelligence
+    </div>
+    <h1 class="hero-headline">
+      Turning Raw Data<br>Into <span class="accent scramble-text" data-val="Decisions">Decisions</span><br>That Matter.
+    </h1>
+    <p class="hero-sub">
+      ADJ Technologies delivers structured, insight-driven analytics, digital platforms, and government-ready solutions — built for scale, built for impact.
+    </p>
+    <div class="hero-actions">
+      <a href="services.html" class="btn-primary">Explore Services</a>
+      <a href="contact.html" class="btn-ghost">Talk to Us →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section-deep">
+  <div class="section-header reveal">
+    <div class="section-label">Who We Are</div>
+    <h2 class="section-title">A data company<br>with a government track record.</h2>
+    <p class="section-body">
+      Founded under Zavri Digital Solutions — the client-facing arm of ADJ Technologies Private Limited — we specialize in turning complex, multi-source data into clear, decision-ready intelligence for enterprises and public sector bodies.
+    </p>
+  </div>
+
+  <div class="about-grid">
+    <div class="about-visual reveal">
+      <div class="about-logo-container">
+        <img src="AJD_Tech_Logo.png" alt="AJD Technologies Logo" class="adj-logo-svg" style="object-fit: contain;">
+      </div>
+      <div class="about-stats">
+        <div class="stat-pill">
+          <span class="num">5+</span>
+          <span class="lbl">Projects Delivered</span>
+        </div>
+        <div class="stat-pill">
+          <span class="num">Govt</span>
+          <span class="lbl">Sector Engaged</span>
+        </div>
+        <div class="stat-pill">
+          <span class="num">100%</span>
+          <span class="lbl">Quality Commitment</span>
+        </div>
+        <div class="stat-pill">
+          <span class="num">2+</span>
+          <span class="lbl">Live Initiatives</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="reveal">
+      <p style="font-size:15px; color:var(--adj-silver); line-height:1.85; margin-bottom:24px;">
+        We work at the intersection of data engineering, analytics, and digital transformation. Whether it's a municipality needing school performance dashboards or a business needing communication infrastructure — our pipeline handles it end to end.
+      </p>
+      <p style="font-size:15px; color:var(--adj-silver); line-height:1.85; margin-bottom:32px;">
+        Our team has hands-on experience delivering analytics pipelines, Power BI dashboards, bulk communication systems, and responsive web platforms — all with structured documentation and transparent reporting.
+      </p>
+      <div class="tech-bar">
+        <span class="tech-tag">Power BI</span>
+        <span class="tech-tag">Python</span>
+        <span class="tech-tag">MySQL</span>
+        <span class="tech-tag">Flask</span>
+        <span class="tech-tag">Excel Analytics</span>
+        <span class="tech-tag">Bulk SMS</span>
+        <span class="tech-tag">React</span>
+        <span class="tech-tag">Government Reporting</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section-black">
+  <div class="section-header reveal">
+    <div class="section-label">What We Do</div>
+    <h2 class="section-title">Four pillars. One integrated team.</h2>
+    <p class="section-body">
+      From raw data collection to live dashboards, from a single SMS campaign to a full government analytics suite — our services are built to connect.
+    </p>
+  </div>
+
+  <div class="services-grid">
+    <div class="service-card reveal">
+      <div class="service-icon">
+        <svg viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 16l4-4 4 4 4-4"/></svg>
+      </div>
+      <h3>Data Analytics & Business Intelligence</h3>
+      <p>Advanced analysis, interactive dashboards (Power BI, custom), and reports designed for evidence-based decisions and operational efficiency.</p>
+    </div>
+
+    <div class="service-card reveal">
+      <div class="service-icon">
+        <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+      </div>
+      <h3>Website & Platform Development</h3>
+      <p>Secure, scalable, and responsive websites, portals, and custom platforms — from public-sector submissions to client-facing web apps.</p>
+    </div>
+
+    <div class="service-card reveal">
+      <div class="service-icon">
+        <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+      </div>
+      <h3>Bulk SMS & Digital Marketing</h3>
+      <p>High-volume, reliable SMS infrastructure for alerts, campaigns, and engagement — paired with SEO, social media, and performance marketing.</p>
+    </div>
+
+    <div class="service-card reveal">
+      <div class="service-icon">
+        <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+      </div>
+      <h3>Government Data Projects</h3>
+      <p>Structured analytics, data collection, cleansing, and visualization solutions tailored to the compliance and reporting needs of public institutions.</p>
+    </div>
+  </div>
+</section>
+
+<!-- GOVERNMENT TRACK RECORD -->
+<section id="government" class="section-deep">
+  <div class="section-header reveal">
+    <div class="section-label">Government Track Record</div>
+    <h2 class="section-title">Trusted by public institutions.</h2>
+  </div>
+
+  <div class="gov-highlight reveal">
+    <div>
+      <div class="gov-badge"><span class="gov-badge-dot"></span>Active Engagement</div>
+      <h3>Coimbatore Corporation Commissioner Initiatives</h3>
+      <p>
+        ADJ Technologies is actively engaged in analytics projects for the <strong>Coimbatore Corporation Commissioner</strong>, supporting two flagship municipal initiatives:
+      </p>
+      <div class="gov-chips" style="margin-top:18px; margin-bottom:16px;">
+        <span class="gov-chip">School Data Analysis</span>
+        <span class="gov-chip">Solid Waste Management</span>
+        <span class="gov-chip">Academic Performance Dashboards</span>
+        <span class="gov-chip">Operational Planning</span>
+      </div>
+      <p style="margin-top:4px;">
+        Our role spans full data pipeline: <strong>collection → cleansing → analysis → visualization → government-ready reporting</strong>.
+      </p>
+    </div>
+    <div class="gov-visual">
+      <div class="gov-metric">
+        <span class="gov-metric-label">Engagement Status</span>
+        <span class="gov-metric-value green" style="font-size:1rem;">● Active</span>
+      </div>
+      <div class="gov-metric">
+        <span class="gov-metric-label">Active Initiatives</span>
+        <span class="gov-metric-value orange">2</span>
+      </div>
+      <div class="gov-metric">
+        <span class="gov-metric-label">Data Pipeline Coverage</span>
+        <span class="gov-metric-value">End-to-End</span>
+      </div>
+      <div class="gov-metric">
+        <span class="gov-metric-label">Report Format</span>
+        <span class="gov-metric-value" style="font-size:0.85rem;">Govt-Ready / Power BI</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- WHY CHOOSE US -->
+<section class="section-deep">
+  <div class="section-header reveal">
+    <div class="section-label">Why ADJ Technologies</div>
+    <h2 class="section-title">Six reasons clients stay.</h2>
+  </div>
+
+  <div class="why-grid">
+    <div class="why-item reveal">
+      <div class="why-num">01</div>
+      <h4>Proven Government Experience</h4>
+      <p>Active engagement with Coimbatore Corporation — real deliverables, real accountability.</p>
+    </div>
+    <div class="why-item reveal">
+      <div class="why-num">02</div>
+      <h4>Policy-Aligned Methodology</h4>
+      <p>Our data practices are structured around compliance, audit trails, and public-sector reporting standards.</p>
+    </div>
+    <div class="why-item reveal">
+      <div class="why-num">03</div>
+      <h4>Decision-Ready Outputs</h4>
+      <p>Every report and dashboard is designed so decision-makers can act — not just observe.</p>
+    </div>
+    <div class="why-item reveal">
+      <div class="why-num">04</div>
+      <h4>Custom, Not Template</h4>
+      <p>Solutions are scoped around your departmental objectives and data infrastructure — not a generic product.</p>
+    </div>
+    <div class="why-item reveal">
+      <div class="why-num">05</div>
+      <h4>Modern Toolchain</h4>
+      <p>Power BI, Python, MySQL, Flask, REST APIs — the right tools for each layer of the pipeline.</p>
+    </div>
+    <div class="why-item reveal">
+      <div class="why-num">06</div>
+      <h4>Transparent Delivery</h4>
+      <p>Structured documentation, clear milestones, and direct communication through every project phase.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="section-black">
+  <div class="section-header reveal">
+    <div class="section-label">Our Process</div>
+    <h2 class="section-title">From brief to live dashboard.</h2>
+  </div>
+
+  <div class="process-track reveal">
+    <div class="process-step active">
+      <div class="process-dot">01</div>
+      <h5>Discovery</h5>
+      <p>Understand objectives, data sources, and stakeholders</p>
+    </div>
+    <div class="process-step active">
+      <div class="process-dot">02</div>
+      <h5>Data Audit</h5>
+      <p>Collect, cleanse, and structure raw data</p>
+    </div>
+    <div class="process-step active">
+      <div class="process-dot">03</div>
+      <h5>Analysis</h5>
+      <p>Build models, run analysis, surface patterns</p>
+    </div>
+    <div class="process-step active">
+      <div class="process-dot">04</div>
+      <h5>Visualization</h5>
+      <p>Dashboards and reports in Power BI or web</p>
+    </div>
+    <div class="process-step active">
+      <div class="process-dot">05</div>
+      <h5>Handover</h5>
+      <p>Documentation, training, and ongoing support</p>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<div class="cta-block" id="contact">
+  <h2>Ready to make your data work?</h2>
+  <p>Whether you're a business, institution, or government body — let's talk about what structured data intelligence can unlock for you.</p>
+  <a href="mailto:ZavriDigitalSolutions@gmail.com" class="btn-primary">Start a Conversation</a>
+  <div class="contact-chips">
+    <div class="contact-chip">
+      <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.79 19.79 0 0 1 11.45 18a19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 3.18 2 2 0 0 1 4.11 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 15.92z"/></svg>
+      +91 9597793147
+    </div>
+    <div class="contact-chip">
+      <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      deva@adjtechnologies.com
+    </div>
+    <div class="contact-chip">
+      <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      Coimbatore, Tamil Nadu, India
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-brand">ADJ <span>Technologies</span> Private Limited</div>
+  <p style="color:rgba(168,180,204,0.3);">Data · Analytics · Intelligence</p>
+</footer>
+
+<script>
+/* HERO CANVAS - Interactive Galaxy Animation */
+(function() {
+  const canvas = document.getElementById('heroCanvas');
+  const ctx = canvas.getContext('2d');
+  let particles = [];
+  let W, H;
+  let mouse = { x: null, y: null, radius: 150 };
+
+  window.addEventListener('mousemove', (e) => {
+    mouse.x = e.x;
+    mouse.y = e.y;
+  });
+
+  function resize() {
+    W = canvas.width = window.innerWidth;
+    H = canvas.height = window.innerHeight;
+  }
+
+  class Particle {
+    constructor(x, y, vx, vy, size, color) {
+      this.x = x; this.y = y;
+      this.vx = vx; this.vy = vy;
+      this.size = size; this.baseX = x; this.baseY = y;
+      this.color = color;
+      this.density = (Math.random() * 30) + 1;
+    }
+    draw() {
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+      ctx.fillStyle = this.color;
+      ctx.fill();
+    }
+    update() {
+      let dx = mouse.x - this.x;
+      let dy = mouse.y - this.y;
+      let distance = Math.sqrt(dx*dx + dy*dy);
+      let forceDirX = dx / distance;
+      let forceDirY = dy / distance;
+      let maxDist = mouse.radius;
+      let force = (maxDist - distance) / maxDist;
+      let dirX = forceDirX * force * this.density;
+      let dirY = forceDirY * force * this.density;
+
+      if (distance < mouse.radius) {
+        this.x -= dirX;
+        this.y -= dirY;
+      } else {
+        if (this.x !== this.baseX) {
+          let dx = this.x - this.baseX;
+          this.x -= dx/10;
+        }
+        if (this.y !== this.baseY) {
+          let dy = this.y - this.baseY;
+          this.y -= dy/10;
+        }
+      }
+      this.x += this.vx; this.y += this.vy;
+      if(this.x < 0 || this.x > W) this.vx *= -1;
+      if(this.y < 0 || this.y > H) this.vy *= -1;
+      this.draw();
+    }
+  }
+
+  function init() {
+    particles = [];
+    let numParticles = (W * H) / 10000;
+    for (let i = 0; i < numParticles; i++) {
+      let size = (Math.random() * 2) + 1;
+      let x = (Math.random() * ((innerWidth - size * 2) - (size * 2)) + size * 2);
+      let y = (Math.random() * ((innerHeight - size * 2) - (size * 2)) + size * 2);
+      let vx = (Math.random() - 0.5) * 0.5;
+      let vy = (Math.random() - 0.5) * 0.5;
+      let color = Math.random() > 0.85 ? 'rgba(232,67,26,0.8)' : 'rgba(168,180,204,0.6)';
+      particles.push(new Particle(x, y, vx, vy, size, color));
+    }
+  }
+
+  function animate() {
+    requestAnimationFrame(animate);
+    ctx.clearRect(0, 0, W, H);
+    for (let i = 0; i < particles.length; i++) {
+      particles[i].update();
+    }
+    connect();
+  }
+
+  function connect() {
+    let opacityValue = 1;
+    for(let a=0; a<particles.length; a++){
+      for(let b=a; b<particles.length; b++){
+        let dist = ((particles[a].x - particles[b].x) * (particles[a].x - particles[b].x)) + 
+                   ((particles[a].y - particles[b].y) * (particles[a].y - particles[b].y));
+        if(dist < (W/10) * (H/10)) {
+          opacityValue = 1 - (dist/20000);
+          ctx.strokeStyle = particles[a].color.replace(/[\d\.]+\)$/g, `${opacityValue})`);
+          ctx.lineWidth = 1;
+          ctx.beginPath();
+          ctx.moveTo(particles[a].x, particles[a].y);
+          ctx.lineTo(particles[b].x, particles[b].y);
+          ctx.stroke();
+        }
+      }
+    }
+  }
+
+  resize();
+  init();
+  animate();
+  window.addEventListener('resize', () => { resize(); init(); });
+  window.addEventListener('mouseout', () => { mouse.x = undefined; mouse.y = undefined; });
+})();
+
+/* CUSTOM CURSOR SCRIPT */
+const dot = document.getElementById("cursor-dot");
+const outline = document.getElementById("cursor-outline");
+
+window.addEventListener("mousemove", (e) => {
+  const posX = e.clientX;
+  const posY = e.clientY;
+
+  dot.style.left = `${posX}px`;
+  dot.style.top = `${posY}px`;
+
+  outline.animate({
+    left: `${posX}px`,
+    top: `${posY}px`
+  }, { duration: 500, fill: "forwards" });
+});
+
+document.querySelectorAll("a, button, .service-card, .why-item").forEach(el => {
+  el.addEventListener("mouseenter", () => {
+    outline.style.width = "60px";
+    outline.style.height = "60px";
+    outline.style.borderColor = "var(--adj-green)";
+    dot.style.backgroundColor = "var(--adj-green)";
+  });
+  el.addEventListener("mouseleave", () => {
+    outline.style.width = "40px";
+    outline.style.height = "40px";
+    outline.style.borderColor = "rgba(232, 67, 26, 0.5)";
+    dot.style.backgroundColor = "var(--adj-orange)";
+  });
+});
+
+/* SCRAMBLE TEXT EFFECT */
+const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+let interval = null;
+const scrambleEl = document.querySelector(".scramble-text");
+if(scrambleEl) {
+  scrambleEl.onmouseover = event => {
+    let iteration = 0;
+    clearInterval(interval);
+    interval = setInterval(() => {
+      event.target.innerText = event.target.innerText
+        .split("")
+        .map((letter, index) => {
+          if(index < iteration) {
+            return event.target.dataset.val[index];
+          }
+          return letters[Math.floor(Math.random() * 26)];
+        })
+        .join("");
+      if(iteration >= event.target.dataset.val.length){
+        clearInterval(interval);
+      }
+      iteration += 1 / 3;
+    }, 30);
+  }
+}
+
+/* SCROLL REVEAL */
+const reveals = document.querySelectorAll('.reveal');
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+reveals.forEach(el => observer.observe(el));
+
+/* MOBILE MENU */
+const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+const navLinks = document.getElementById('navLinks');
+if (mobileMenuBtn) {
+  mobileMenuBtn.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+}
+</script>
+</body>
+</html>
